@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="gallery-title">IMAGE GALLERY</h1>
+    
+
+    <div class="gallery">
+        <img src="images/1.jpg" alt="Image 1">
+        <img src="images/4.jpg" alt="Image 2">
+        <img src="images/3.jpg" alt="Image 3">
+        <img src="images/8.jpg" alt="Image 4">
+        <img src="images/2.jpg" alt="Image 5">
+        <img src="images/5.jpg" alt="Image 6">
+        <img src="images/6.jpg" alt="Image 7">
+        <img src="images/7.jpg" alt="Image 8">
+        <img src="images/9.jpg" alt="Image 9">
+        <img src="images/10.jpg" alt="Image 10">
+        <img src="images/11.jpg" alt="Image 11">
+        <img src="images/12.jpg" alt="Image 12">
+        <img src="images/13.jpg" alt="Image 13">
+        <img src="images/14.jpg" alt="Image 14">
+        <img src="images/15.jpg" alt="Image 15">
+        <img src="images/16.jpg" alt="Image 16">
+    </div>
+    
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <img class="modal-content" id="modal-img">
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
